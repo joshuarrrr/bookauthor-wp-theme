@@ -1,0 +1,133 @@
+/* ==========================================================================
+Wordpress Login Screen
+========================================================================== */
+/**
+ * Import our custom color variables
+ */
+/* ==========================================================================
+Colors
+========================================================================== */
+/* ==========================================================================
+Define our custom colors
+========================================================================== */
+/**
+ * Add login logo image
+ */
+/**
+ * Custom stylesheets
+ */
+/* ==========================================================================
+Buttons
+========================================================================== */
+.login .button {
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  background-color: #0277BD;
+}
+
+.login .button:hover {
+  background-color: #026dae;
+}
+
+.login .button:active {
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.login input[type=submit] {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  margin-top: 60px;
+  padding: 15px 0 !important;
+  line-height: normal !important;
+  font-size: 1rem;
+  float: none;
+}
+
+.login input[type=submit]:active, .login input[type=submit]:focus {
+  background-color: #026dae;
+  border-color: #026dae;
+  box-shadow: none;
+}
+
+/* ==========================================================================
+Form Elements
+========================================================================== */
+.login input[type=text],
+.login input[type=password],
+.login input[type=radio],
+.login input[type=checkbox] {
+  box-shadow: none;
+}
+
+.login input[type=text],
+.login input[type=password] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: transparent;
+  transition: border 0.15s ease-in-out;
+}
+
+.login input[type=text]:focus,
+.login input[type=password]:focus {
+  border-bottom-color: #0277BD;
+}
+
+.login input[type=checkbox] {
+  background: transparent !important;
+}
+
+.login input[type=checkbox]:focus {
+  border-color: #0277BD;
+}
+
+.login input[type=checkbox]:checked:before {
+  color: #0277BD;
+}
+
+.login .forgetmenot {
+  margin-top: 15px;
+}
+
+.login p#backtoblog, .login p#nav {
+  padding: 0;
+}
+
+.login p a:hover {
+  color: #0277BD !important;
+}
+
+/* ==========================================================================
+Layout - general layout styles
+========================================================================== */
+.login {
+  background-color: #fff;
+}
+
+.login #login h1 a {
+  background: url("../../../wp-admin/images/w-logo-blue.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  background-size: 84px;
+}
+
+.login .message {
+  border-left-color: #0277BD;
+}
+
+.login #login_error a {
+  color: #0277BD;
+  text-decoration: none;
+}
+
+.login form {
+  box-shadow: none;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}

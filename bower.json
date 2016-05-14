@@ -1,0 +1,15 @@
+{
+  "name": "BookAuthor",
+  "version": "0.1.0",
+  "description": "A custom WordPress theme created for book authors",
+  "license": "MIT",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/joshuarrrr"
+  },
+  "private": true,
+  "dependencies": {
+    "foundation": "latest"
+  }
+}

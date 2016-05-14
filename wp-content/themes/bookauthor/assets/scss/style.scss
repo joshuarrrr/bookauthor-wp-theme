@@ -1,0 +1,72 @@
+/*!!
+Theme Name: BookAuthor
+Author: Josh Romero
+Author URI: http://www.joshromero.com
+Description: Customized WordPress theme for BookAuthor
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+BookAuthor is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+
+/**
+ * Include our custom variables
+ */
+@import "base/colors";
+@import "base/variables";
+
+
+
+/**
+ * Vendor stylesheets
+ */
+@import "vendors";
+
+
+
+/**
+ * Utility
+ * 
+ * Sass code that doesn't output to any CSS 
+ * (ie. mixins and functions)
+ */
+@import "utility/functions";
+@import "utility/mixins";
+
+
+/**
+ * Base
+ * 
+ * Contains global styles 
+ * (ie. typography, colors, buttons, animations)
+ */
+@import "base/buttons";
+@import "base/typography";
+@import "base/layout";
+
+
+/**
+ * Modules
+ *
+ * Contains reusable styles 
+ * (ie. header, footer, dropdowns, forms, navigation)
+ */
+@import "modules/header";
+@import "modules/footer";
+
+
+
+/**
+ * Pages
+ *
+ * Contains page-specific styles and layouts 
+ * (ie. homepage, about, contact)
+ */
+@import "pages/page-home";
+
+
+
+
